@@ -9,4 +9,4 @@ let p = 10000;
 let r = 10;
 let t = 1;
 const myInterest = interst(p, r, t);
-console.log(myInterest);
+// console.log(myInterest);
