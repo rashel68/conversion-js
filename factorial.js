@@ -42,6 +42,7 @@ function getFactorial(number) {
 
 
 // while loop using function decrement 5x4x3x2x1
+/*
 function factorialNumber(num){
     let fact =1;
     let i = num;
@@ -50,7 +51,7 @@ function factorialNumber(num){
         i--;
     }
     return fact;
-}
+}*/
 // let outFact = factorialNumber(5);
 // console.log(outFact);
 
@@ -79,7 +80,7 @@ function factorialNum(n){
     // return faCtorial;
 }
 let number2 = 6;
-let rFactorial = factorialNumber(number2);
+let rFactorial = factorialNum(number2);
 // console.log(rFactorial);
 
 
@@ -95,3 +96,12 @@ let rFactorial = factorialNumber(number2);
 // for(i = 10; i>1; i--){
 //     console.log(i);
 // }
+
+
+
+// 1 to 10 numbers sumation 1+2+3+4+5+6+7+8+9+10
+let inNum = 0;
+for(i=1; i<=10; i++){
+    inNum = inNum + i;
+}
+// console.log(inNum);
